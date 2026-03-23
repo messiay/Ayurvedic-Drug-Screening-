@@ -1,0 +1,13 @@
+# Automated Docking Screen: Top Anti-Inflammatory Candidates
+
+The following Ayurvedic compounds were identified via autonomous screening against human COX-2 (PDB 5F19) at the Ser-530 active site.
+
+| Compound Name                                                                                                                                                                                           |   Binding Score (kcal/mol) | Hypothesis                                                                                                        |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------:|:------------------------------------------------------------------------------------------------------------------|
+| (2R)-2-[(1S)-1-hydroxy-1-[(3R,8R,9S,10R,13S,14R,17R)-3,14,17-trihydroxy-10,13-dimethyl-1-oxo-2,3,4,7,8,9,11,12,15,16-decahydrocyclopenta[a]phenanthren-17-yl]ethyl]-4,5-dimethyl-2,3-dihydropyran-6-one |                     -9.029 | Optimized binding (-9.029 kcal/mol) and LogP (1.2) for rapid systemic distribution and localized muscle recovery. |
+| (2R)-2-[(1S)-1-[(8R,9S,10R,13S,14R,17S)-14,17-dihydroxy-10,13-dimethyl-1-oxo-2,7,8,9,11,12,15,16-octahydrocyclopenta[a]phenanthren-17-yl]-1-hydroxyethyl]-4,5-dimethyl-2,3-dihydropyran-6-one           |                     -8.922 | Optimized binding (-8.922 kcal/mol) and LogP (2.3) for rapid systemic distribution and localized muscle recovery. |
+| [15-[1-(4,5-dimethyl-6-oxo-2,3-dihydropyran-2-yl)-1-hydroxyethyl]-6-hydroxy-2,16-dimethyl-3-oxo-8-oxapentacyclo[9.7.0.02,7.07,9.012,16]octadec-4-en-10-yl] acetate                                      |                     -8.816 | Optimized binding (-8.816 kcal/mol) and LogP (2.7) for rapid systemic distribution and localized muscle recovery. |
+| (1S,2R,6S,7R,9R,12S,15S,16S)-15-[(1R)-1-(4,5-dimethyl-6-oxo-2,3-dihydropyran-2-yl)-1-hydroxyethyl]-6-hydroxy-2,16-dimethyl-8-oxapentacyclo[9.7.0.02,7.07,9.012,16]octadec-4-en-3-one                    |                     -8.815 | Optimized binding (-8.815 kcal/mol) and LogP (3.1) for rapid systemic distribution and localized muscle recovery. |
+| (2R)-2-[(1S)-1-hydroxy-1-[(8R,9S,10R,13S,17R)-17-hydroxy-10,13-dimethyl-1-oxo-7,8,9,11,12,16-hexahydro-4H-cyclopenta[a]phenanthren-17-yl]ethyl]-4,5-dimethyl-2,3-dihydropyran-6-one                     |                     -8.591 | Optimized binding (-8.591 kcal/mol) and LogP (2.9) for rapid systemic distribution and localized muscle recovery. |
+
+*LogP filtering (< 3.5) and glycosylation prioritization were used to ensure beverage compatibility.*

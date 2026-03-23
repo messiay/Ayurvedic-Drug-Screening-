@@ -1,0 +1,13 @@
+node_modules/
+__pycache__/
+*.json
+*.pdb
+*.pdbqt
+*.temp
+.env
+tmp/
+*.zip
+latest_jobs.json
+jobs_status.json
+5F19_full.pdb
+*.exe

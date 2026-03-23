@@ -1,0 +1,16 @@
+https://shoe-ste-gem-peterson.trycloudflare.com/
+
+You are an expert computational biologist and formulator. Your task is to run an autonomous high-throughput docking screen to discover novel, highly soluble Ayurvedic compounds that inhibit muscle inflammation, specifically for use in an aqueous sports recovery drink.
+
+Step 1: Compound Sourcing & Filtering
+Access the PubChem database. Pull a library of 500 unique chemical structures belonging to the Withanolide (Ashwagandha) and Boswellic acid families.
+Constraint: Because this is for a liquid beverage, filter this list to prioritize glycosylated or biotransformed derivatives that have high aqueous solubility (LogP < 3.5). Discard anything highly lipophilic or toxic.
+
+Step 2: Automated Docking Execution
+I have a custom molecular docking API running at [INSERT YOUR API URL HERE].
+Target Receptor: Use the human COX-2 enzyme (PDB ID: 5F19).
+Send POST requests to my API for the filtered list of ligands. You must handle this asynchronously—poll the status endpoint until each job is complete before retrieving the final binding score.
+
+Step 3: Evaluation & Output
+Sort the completed docking results. Discard any compound with a binding affinity worse than -8.0 kcal/mol.
+Generate a markdown table of the Top 5 candidates containing: Compound Name, PubChem CID, Binding Score (kcal/mol), and a brief 1-sentence hypothesis on why its specific structure makes it a good candidate for water-soluble athletic recovery.
